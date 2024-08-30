@@ -131,7 +131,6 @@ void php_parallel_exceptions_save(zval *saved, zend_object *exception) {
 
     /* todo */
     ZVAL_NULL(&previous);
-    ZVAL_NULL(file);
 
     ZVAL_STR(&class, exception->ce->name);
 
